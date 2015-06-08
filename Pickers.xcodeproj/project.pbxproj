@@ -13,6 +13,14 @@
 		F5828E941B253D7300F50748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5828E931B253D7300F50748 /* Images.xcassets */; };
 		F5828E971B253D7300F50748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5828E951B253D7300F50748 /* LaunchScreen.xib */; };
 		F5828EA31B253D7400F50748 /* PickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5828EA21B253D7400F50748 /* PickersTests.swift */; };
+		F5828EAD1B253DC500F50748 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5828EAC1B253DC500F50748 /* DatePickerViewController.swift */; };
+		F5828EAF1B253DDE00F50748 /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5828EAE1B253DDE00F50748 /* SingleComponentPickerViewController.swift */; };
+		F5828EB11B253DF500F50748 /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5828EB01B253DF500F50748 /* DoubleComponentPickerViewController.swift */; };
+		F5828EB31B253E0600F50748 /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5828EB21B253E0600F50748 /* DependentComponentPickerViewController.swift */; };
+		F5828EB51B253E1400F50748 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5828EB41B253E1400F50748 /* CustomPickerViewController.swift */; };
+		F5828EB71B2558CC00F50748 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5828EB61B2558CC00F50748 /* statedictionary.plist */; };
+		F5828EBA1B25632000F50748 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5828EB81B25632000F50748 /* crunch.wav */; };
+		F5828EBB1B25632000F50748 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5828EB91B25632000F50748 /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		F5828E9C1B253D7400F50748 /* PickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5828EA11B253D7400F50748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5828EA21B253D7400F50748 /* PickersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersTests.swift; sourceTree = "<group>"; };
+		F5828EAC1B253DC500F50748 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		F5828EAE1B253DDE00F50748 /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		F5828EB01B253DF500F50748 /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		F5828EB21B253E0600F50748 /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		F5828EB41B253E1400F50748 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		F5828EB61B2558CC00F50748 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../Mobile App Programming/BIDWS Source Code/Examples/07 - Picker Data/statedictionary.plist"; sourceTree = "<group>"; };
+		F5828EB81B25632000F50748 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crunch.wav; path = "../../Mobile App Programming/BIDWS Source Code/Examples/07 - Picker Sounds/crunch.wav"; sourceTree = "<group>"; };
+		F5828EB91B25632000F50748 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = "../../Mobile App Programming/BIDWS Source Code/Examples/07 - Picker Sounds/win.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,14 @@
 		F5828E891B253D7300F50748 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				F5828EB81B25632000F50748 /* crunch.wav */,
+				F5828EB91B25632000F50748 /* win.wav */,
+				F5828EB61B2558CC00F50748 /* statedictionary.plist */,
+				F5828EAC1B253DC500F50748 /* DatePickerViewController.swift */,
+				F5828EAE1B253DDE00F50748 /* SingleComponentPickerViewController.swift */,
+				F5828EB01B253DF500F50748 /* DoubleComponentPickerViewController.swift */,
+				F5828EB21B253E0600F50748 /* DependentComponentPickerViewController.swift */,
+				F5828EB41B253E1400F50748 /* CustomPickerViewController.swift */,
 				F5828E8C1B253D7300F50748 /* AppDelegate.swift */,
 				F5828E8E1B253D7300F50748 /* ViewController.swift */,
 				F5828E901B253D7300F50748 /* Main.storyboard */,
@@ -192,8 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5828EBA1B25632000F50748 /* crunch.wav in Resources */,
 				F5828E921B253D7300F50748 /* Main.storyboard in Resources */,
 				F5828E971B253D7300F50748 /* LaunchScreen.xib in Resources */,
+				F5828EBB1B25632000F50748 /* win.wav in Resources */,
+				F5828EB71B2558CC00F50748 /* statedictionary.plist in Resources */,
 				F5828E941B253D7300F50748 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +241,11 @@
 			files = (
 				F5828E8F1B253D7300F50748 /* ViewController.swift in Sources */,
 				F5828E8D1B253D7300F50748 /* AppDelegate.swift in Sources */,
+				F5828EB31B253E0600F50748 /* DependentComponentPickerViewController.swift in Sources */,
+				F5828EB11B253DF500F50748 /* DoubleComponentPickerViewController.swift in Sources */,
+				F5828EB51B253E1400F50748 /* CustomPickerViewController.swift in Sources */,
+				F5828EAF1B253DDE00F50748 /* SingleComponentPickerViewController.swift in Sources */,
+				F5828EAD1B253DC500F50748 /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
